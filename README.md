@@ -40,7 +40,7 @@ Required Actions secrets (set with `gh secret set NAME --repo heimdallresearch/s
 
 ### GH_PAT expiry reminder
 
-Create the fine-grained token with a one-year expiry. Target renewal date: **2027-09-28**. Rotate before that date and update the secret.
+Create the fine-grained token with a one-year expiry. Target renewal date: 2027-09-28. Rotate before that date and update the secret.
 
 ## License
 
