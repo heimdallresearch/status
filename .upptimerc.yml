@@ -10,14 +10,13 @@ sites:
     url: https://api.heimdallresearch.com/healthz
   - name: App
     url: https://app.heimdallresearch.com
-  # Paused until October launch. Do not uncomment until docs.heimdallresearch.com is public.
   # - name: Docs
   #   url: https://docs.heimdallresearch.com
 
 # No assignees for downtime issues.
 assignees: []
 
-# Email downtime alerts via Resend SMTP (secrets set in repo Actions secrets).
+# Downtime alerts use repository Actions secrets.
 secrets:
   - NOTIFICATION_EMAIL
   - NOTIFICATION_EMAIL_FROM
